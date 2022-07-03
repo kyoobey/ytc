@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"path": "frontend",
+			"name": "frontend",
+			"folder_exclude_patterns": ["target", "dist"],
+			"file_exclude_patterns": ["Cargo.lock"],
+		},
+		{
+			"path": "src-tauri",
+			"name": "src-tauri",
+			"folder_exclude_patterns": ["target", "dist"],
+			"file_exclude_patterns": ["Cargo.lock"],
+		},
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["frontend", "src-tauri", "node_modules", ".sublime_workspaces"],
+			"file_include_patterns": ["README.md", "*.sublime-project", ".gitignore", "package.json"]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+# editor
+.sublime_workspaces/
+
+# rust files and fodlers
+target
+Cargo.lock
+
+# yew files and folders
+dist
+
+# node files and folders
+node_modules
+package-lock.json
