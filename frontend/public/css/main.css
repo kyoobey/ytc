@@ -1,0 +1,38 @@
+
+
+
+@font-face {
+	font-family: "Titan One";
+	src: url("/fonts/TitanOne-Regular.ttf");
+}
+
+
+
+body {
+	margin: 0;
+	/*background: #ffff5c;*/
+	background: #ff2626;
+	color: black;
+}
+
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#container pre {
+	font-family: "Titan One";
+	letter-spacing: 1.5px;
+}
+
+#container textarea {
+	align-self: center;
+	background: #00000055;
+	border: 50px;
+	border-color: black;
+}
+
+
